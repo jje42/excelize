@@ -514,3 +514,11 @@ func (f *File) setContentTypePartProjectExtensions(contentType string) {
 		})
 	}
 }
+
+// SetBuiltInNumFmt adds or replaces the default format for the given number
+// format. For example, SetBuiltInNumFmt(14, "dd-mm-yyyy") will cause dates
+// using the format code 14 to be returned in dd-mm-yyyy format (instead of the
+// default mm-dd-yy format).
+func (f *File) SetBuiltInNumFmt(num int, value string) {
+	builtInNumFmt[num] = value
+}
