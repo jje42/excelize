@@ -38,7 +38,7 @@ var builtInNumFmt = map[int]string{
 	11: "0.00e+00",
 	12: "# ?/?",
 	13: "# ??/??",
-	14: "mm-dd-yy",
+	14: "dd/mm/yyyy",
 	15: "d-mmm-yy",
 	16: "d-mmm",
 	17: "mmm-yy",
